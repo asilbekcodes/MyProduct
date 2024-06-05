@@ -564,6 +564,26 @@ video {
   margin-bottom: 8rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mb-14 {
   margin-bottom: 3.5rem;
 }
@@ -586,6 +606,10 @@ video {
 
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -640,6 +664,22 @@ video {
   width: 200px;
 }
 
+.w-\[500\] {
+  width: 500;
+}
+
+.w-\[5px\] {
+  width: 5px;
+}
+
+.w-\[586px\] {
+  width: 586px;
+}
+
+.w-\[486px\] {
+  width: 486px;
+}
+
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
@@ -678,6 +718,14 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .border-2 {
@@ -763,6 +811,16 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -799,6 +857,10 @@ video {
   padding-bottom: 8rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -833,6 +895,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -878,4 +945,8 @@ video {
 .text-green-clr {
   --tw-text-opacity: 1;
   color: rgb(2 137 122 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }

@@ -592,6 +592,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -684,6 +688,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -712,6 +720,10 @@ video {
 .border-\[\#DEDEDE\] {
   --tw-border-opacity: 1;
   border-color: rgb(222 222 222 / var(--tw-border-opacity));
+}
+
+.border-\[\] {
+  border-color: ;
 }
 
 .bg-green-clr {
@@ -899,6 +911,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#737373\] {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .shadow-md {

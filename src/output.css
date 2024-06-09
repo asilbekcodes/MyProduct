@@ -630,6 +630,14 @@ video {
   margin-top: 0.5rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -744,6 +752,14 @@ video {
 
 .gap-y-10 {
   row-gap: 2.5rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
 }
 
 .rounded-lg {
@@ -980,6 +996,14 @@ video {
 
 .text-\[\] {
   color: ;
+}
+
+.text-\[3\] {
+  color: 3;
+}
+
+.text-\[34\] {
+  color: 34;
 }
 
 .shadow-\[1px_5px_30px_-21px_rgba\(0\2c 0\2c 0\2c 0\.75\)\] {

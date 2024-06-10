@@ -39,11 +39,28 @@
                 <p class="font-semibold text-lg ">Pricing</p>   
                 <p class="text-lg ">Resources</p>
                 <button class="border-solid border-2 border-[#BCD0E5] px-5 py-2 font-bold"><a href="./login.html">Sign In</a></button>
-                <button class=" px-5 py-2 font-bold bg-green-clr text-white-clr"><a href="./login.html">Sign Up</a></button>
+                <button id="openButton" class=" px-5 py-2 font-bold bg-green-clr text-white-clr">Sign Up</button>
                 <img id="toggleModeButton" class="cursor-pointer" src="./assets/imgs/Frame 49.svg" alt="">
             </div>
         </nav>
         <!-- * navbar end -->
+
+
+        <div id="items" class="hidden rounded-2xl">
+            <div class="fixed left-[565px] top-[220px] bg-white rounded-2xl">
+                <div class="flex flex-col gap-5 w-96 border border-solid border-black p-8 rounded-2xl">
+                    <div class="flex justify-end gap-20 text-3xl">
+                        <h1 class="text-center font-semibold text-[34px] font-mono text-text-clr">Sign up</h1>
+                        <span class="relative bottom-5 cursor-pointer" id="close">&times;</span>
+                    </div>
+                    <input class="p-2 rounded-md border border-solid border-[#ececec] outline-none" id="email" type="email" placeholder="Enter email">
+                    <input class="p-2 rounded-md border border-solid border-[#ececec] outline-none" id="password" type="password" placeholder="Enter password">
+                    <button class="p-2 rounded-md bg-blue-500 text-white font-mono" id="btn">Login</button>
+                </div>
+            </div>
+        </div>
+
+
     </header>
     <!-- * header end -->
 
@@ -236,4 +253,4 @@
     </footer>
     <!-- * footer end -->
 </body>
-     
+</html>     

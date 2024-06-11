@@ -12,11 +12,17 @@ document.getElementById('toggleModeButton').addEventListener('click', function()
 
 let button = document.getElementById('openButton')
 
+let buttons = document.getElementById('openButtons')
+
 let span = document.getElementById('close')
 
 let modal = document.getElementById('items') 
 
 button.onclick = function(){
+    modal.style.display = 'block';
+}
+
+buttons.onclick = function(){
     modal.style.display = 'block';
 }
 
